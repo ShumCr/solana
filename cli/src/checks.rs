@@ -219,6 +219,7 @@ mod tests {
             },
             value: json!(2),
         });
+        
         let mut mocks = HashMap::new();
         mocks.insert(RpcRequest::GetFeeForMessage, check_fee_response);
         mocks.insert(RpcRequest::GetBalance, account_balance_response);
