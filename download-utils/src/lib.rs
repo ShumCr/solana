@@ -19,6 +19,10 @@ use {
     },
 };
 
+
+
+
+
 static TRUCK: Emoji = Emoji("🚚 ", "");
 static SPARKLE: Emoji = Emoji("✨ ", "");
 
